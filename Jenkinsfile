@@ -24,7 +24,7 @@ pipeline {
 
     stage('Check Response') {
         steps {
-            bat 'curl http://localhost'
+            bat 'curl http://192.168.20.38:3010'
         }
     } 
 
